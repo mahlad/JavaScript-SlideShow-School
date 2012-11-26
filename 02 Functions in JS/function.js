@@ -168,7 +168,7 @@ var obj1 = new person('Mahla','Delpak',15);
 
 obj1.from = 'mashad';
 
-alert(obj1.from); // mashad
+alert(obj1.from); 
 */
 /*
 iQueryFn = function (id){
@@ -183,12 +183,14 @@ iQueryFn = function (id){
 	}
 
 	this.prepend = function(str){
+
 		this.html(str+this.elm.innerHTML);
+		//alert(this.elm.innerHTML);
 	}
 }
 
 var box = new iQueryFn('box');
-box.html('Changed Value');
+box.html('Main Value');
 box.append(' Appended Value');
 box.prepend('Prepended Value ');
 */
