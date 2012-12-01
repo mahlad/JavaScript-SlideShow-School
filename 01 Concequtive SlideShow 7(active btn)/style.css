@@ -52,7 +52,10 @@ section.smallPart ul li{
 	border-color: #663300;
 	border-style: solid;
 }
-section.smallPart ul li:hover,section.smallPart ul li.active{
+section.smallPart ul li:hover{
+	border-color: pink;
+}
+section.smallPart ul li.active{
 	border-width: 4px 3px 4px 3px;
 	border-color: yellow;
 	border-style: solid;
