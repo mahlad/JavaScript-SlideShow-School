@@ -1,0 +1,61 @@
+section.slideshow{
+	width: 650px;
+	height: 432px;
+	margin: 50px auto;
+	border:4px solid #556603;
+}
+div.train{
+	width: 4000px;
+	height: 432px;
+
+}
+div.train div{
+	width: 650px;
+	height: 432px;
+}
+div.text{
+	width: 4000px;
+	height: 60px;
+	margin-top: 373px;
+}
+div.text span{
+	width:650px;
+	height:60px;
+	background-color: #630;
+	font-size:20px;
+	text-align: center;
+	line-height: 64px;
+}
+div.menu{
+	width: 650px;
+	height: 65px;
+	margin-left: 158px;
+}
+div.menu ul{
+	list-style-type: none;
+}
+div.menu ul li{
+	width: 100px;
+	height: 65px;
+	border:3px solid #556603;
+}
+div.menu ul li:hover{
+	border-color: yellow;
+}
+div.menu ul li.active{
+	border-color: pink;
+	width: 100px;
+	height: 65px;
+}
+section.slideshow div.next,
+section.slideshow div.prev{
+	width: 31px;
+	height: 30px;
+	background: url('images/arrow.png')no-repeat -30px 0;
+	right: 0;
+	top:190px;
+}
+section.slideshow div.prev{
+	background-position: 0 0;
+	left: 0;
+}

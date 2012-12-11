@@ -1,0 +1,45 @@
+section.slideshow{
+	margin-top: 50px;
+	margin-left: 180px;
+	width: 450px;
+	height: 300px;
+	border: 4px solid #40490A;
+}
+div.train{
+	width: 3000px;
+	height: 300px;
+	top: 0;
+	
+}
+div.train div{
+	width: 450px;
+	height: 300px;
+}
+section.slideshow div.text{
+	width: 3000px;
+	bottom: 0;
+	height: 50px;
+}
+section.slideshow div.text span{
+	width: 450px;
+	height: 50px;
+	background-color: #246;
+	text-align: center;
+	line-height: 45px;
+}
+section.menu{
+	width: 450px;
+	height: 67px;
+	margin-top: 30px;
+	margin-left: 185px;
+	
+}
+ul.small{
+	list-style-type: none;
+}
+ul.small li{
+	border: 4px solid #40490A;
+	margin-left: 3px;
+	width: 100px;
+	height: 67px;
+}
