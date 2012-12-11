@@ -1,0 +1,22 @@
+body{
+	background: url('img/feather.png')repeat center center;
+	width: 100%;
+	height: 100%;
+}
+div.slideshow{
+	width: 800px;
+	height: 403px;
+	background-color: #001;
+	margin: 50px auto;
+	cursor: pointer;
+	overflow: hidden;
+}
+div.train{
+	width: 1600px;
+	height: inherit;
+	background-color: #101;
+}
+div.train div{
+	height: inherit;
+	position: left top;
+}
